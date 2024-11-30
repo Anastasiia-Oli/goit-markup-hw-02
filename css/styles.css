@@ -1,6 +1,6 @@
 /*============ Common styles ===============*/
 body {
-  font-family: "Roboto", serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
@@ -40,7 +40,6 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
 }
 
 .navi-list-link:hover,
@@ -48,11 +47,15 @@ button {
   color: #404bbf;
 }
 .navi-list-link {
+  color: #2e2f42;
+}
+
+.head-addr {
+  font-style: normal;
 }
 .head-contacts {
 }
 .contacts-link {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -79,6 +82,7 @@ button {
   text-align: center;
 }
 .hero-btn {
+  font-family: "Roboto", sans-serif;
   background-color: #4d5ae5;
   color: currentColor;
   font-weight: 500;
@@ -115,18 +119,27 @@ button {
 .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .team-list {
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
 }
+
+.team-list-item {
+  background-color: #ffffff;
+}
+
+.team-list-text {
+  font-size: 16px;
+}
+
 .team-list-title {
   font-weight: 500;
   font-size: 20px;
@@ -147,6 +160,7 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .port-list {
   font-size: 16px;
